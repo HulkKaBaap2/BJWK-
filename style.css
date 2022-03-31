@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(0, 243, 203, 0.589);
+    text-align:center
+}
+h1{
+    background-color: rgba(245, 245, 245, 0.767);
+    color: rgb(54, 1, 245);
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from {box-shadow: 5px 1px 55px rgb(0, 204, 255);}
+    to {box-shadow:5px 1px 55px rgb(238, 19, 201);}
+}
+ p {
+     padding-top:10px;
+     font-size:25px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ h2{
+     color:red;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
